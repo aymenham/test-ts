@@ -20,15 +20,16 @@ un système de fichiers virtuel. Voici les fonctionnalités principales à impl�
    - Déplace un fichier ou un dossier d'un emplacement à un autre dans la structure.
 
 /* 
-  résultat final
-src
-		components
-	 	  component1.tsx		
-		Common
-		  common1.tsx
-		  commonFolder
-		    common2.tsx
-package.json */
+  
+ src
+ package.json               src
+                                components
+                                  component1.tsx		
+                                Common
+                                  common1.tsx
+                                  commonFolder
+                                    common2.tsx
+                            package.json */
 
 const initialData = ["src", "package.json"];
 function Test3() {
