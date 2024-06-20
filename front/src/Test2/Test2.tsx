@@ -2,7 +2,7 @@
  * Cet exercice de refactoring vise à évaluer la capacité du candidat à optimiser les performances des composants React et à utiliser efficacement les hooks pour éviter les rendus inutiles.
  * Le code suivant est un composant React qui affiche une liste d'utilisateurs récupérée depuis une API.
  * Le composant permet également de filtrer les utilisateurs par nom.
- * - Refactorer le composant UserList pour améliorer ses performances.
+ * - Refactorer le composant pour améliorer ses performances.
  * - Apporter d'autres améliorations de performance et de lisibilité que vous jugez nécessaires.
  */
 
