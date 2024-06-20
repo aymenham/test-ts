@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-/*  Dans cet exercice vous devez affichez la valeur précédente générée sans 
-    utiliser un deuxième state (useState). */
+/*  En plus d'afficher la valeur actuelle, le composant doit également afficher la valeur précédente
+     en utilisant une autre méthode sur React que useState pour stocker l'ancienne valeur */
 
 const Test1: React.FC = () => {
   const [value, setValue] = useState<number | null>(null);
