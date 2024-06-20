@@ -20,7 +20,8 @@ un système de fichiers virtuel. Voici les fonctionnalités principales à impl�
    - Déplace un fichier ou un dossier d'un emplacement à un autre dans la structure.
 
 /* 
-  
+  avant                     après
+ 
  src
  package.json               src
                                 components
