@@ -1,23 +1,23 @@
-/**
- * - Ajouter un input et un bouton pour ajouter une nouvelle tache
- * - implémenter la logique d'ajout de tache
- * - ajouter une liste pour afficher la liste des taches
- */
+import React, { useState } from "react";
 
-import React from "react";
-
-interface Task {
-  id: number;
-  text: string;
-}
-
-const initialTasks: Task[] = [
-  { id: 1, text: "Faire les courses" },
-  { id: 2, text: "Rendez-vous chez le médecin à 14h" },
-];
+/*  Dans cet exercice vous devez affichez la valeur précédente générée sans 
+    utiliser un deuxième state (useState). */
 
 const Test1: React.FC = () => {
-  return <div>test</div>;
+  const [value, setValue] = useState<number | null>(null);
+
+  const handleClick = () => {
+    const randomValue = Math.floor(Math.random() * 101);
+    setValue(randomValue);
+  };
+
+  return (
+    <div>
+      <button onClick={handleClick}>Générer une valeur</button>
+      <p>Valeur précédente :</p>
+      <p>Valeur actuelle : {value}</p>
+    </div>
+  );
 };
 
 export default Test1;
